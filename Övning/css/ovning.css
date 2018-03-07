@@ -1,0 +1,29 @@
+body{
+    font-family: Arial;
+}
+p{
+    font-size: 18px;
+    line-height: 140%;
+    padding:0;
+    margin:0;
+    margin-bottom: 0;
+}
+h1{
+    font-family: Arial;
+    font-size:30px;
+    color:#229933;
+    margin:0px;
+    margin-bottom:0px;
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+h2{
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    color: #344;
+    margin:0px;
+    margin-bottom: 0px;
+}

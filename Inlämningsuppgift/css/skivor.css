@@ -1,0 +1,149 @@
+body{
+    font-family: "Times New Roman", sans-serif;
+}
+p{
+    font-size: 18px;
+    line-height: 140%;
+    padding:0;
+    margin:0;
+    margin-bottom: 0;
+}
+h1{
+    font-family: Arial;
+    font-size:30px;
+    color: wheat;
+    margin:0px;
+    margin-bottom:0px;
+    padding: 30px; 
+}
+ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+h2{
+    font-family: "Microsoft Sans Serif";
+    background: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: wheat;
+    margin-top: 20px;
+    margin-bottom:8px;
+    width: 430px;
+}
+h3{
+    font-family: "Microsoft Sans Serif";
+    font-size: 20px;
+    color: antiquewhite;
+    margin-top:30px;
+    margin-bottom:35px;
+
+}
+h4{
+    font-family: Arial;
+    background: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: black;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+p{
+    font-family: "Microsoft Sans Serif";
+    background: rgba(0,0,0,0.5);
+    font-size: 17px;
+    color: antiquewhite;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.album_img{
+    max-width: 100%;
+    height: auto;
+}
+.start_img{ /* Använd max-width för att bilden ska visas bra på olika skärmar */
+    max-width: 500px;
+    height: auto;
+   /* float: left; */
+}
+
+/*img{
+    height:800px;
+}*/
+.background_image{
+    background-image: url("../images/bakgrund2.jpg");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+}
+.background2_image{
+    background-image: url("../images/bakgrund3.jpg");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.background3_image{
+    background-image: url("../images/bakgrund4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+.background4_image{
+    background-image: url("../images/klamar.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.background5_image {
+    background-image: url("../images/kdotpac.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.background6_image {
+    background-image: url("../images/untitled.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 300px;
+}
+
+.videosize_video{
+    width: 100%;
+    height: 300px;
+
+}
+@media (max-width: 400px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        border-style: solid;
+
+    }
+    h2{
+        width: 100%;
+    }
+    h4{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        border-style: dotted;
+
+    }
+}
+@media (min-width: 1025px) {
+    body{
+        background-color: black;
+    }
+    h1{
+        border-style: solid;
+
+    }
+}
